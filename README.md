@@ -102,14 +102,6 @@ project/
 - **OpenCV, Pandas, NumPy**
 - **Matplotlib & Seaborn**
 
----
-
-## 🚀 Cómo ejecutar
-
-1. Cargar el dataset en tu Google Drive o entorno local.
-2. Entrenar YOLO con el archivo `Clasificacion_yolo.ipynb`.
-3. Entrenar modelos clásicos con `Clasificacion_modelos.ipynb`.
-4. Visualizar los resultados en las matrices de confusión y comparar métricas.
 
 ---
 
@@ -123,7 +115,7 @@ project/
 
 ## 📬 Contacto
 
-Autor: **[Tu Nombre]**  
+Autor: **Sebastián Gómez Zapata**  
 Proyecto académico - Visión Artificial  
-Universidad **[Nombre de tu universidad]**  
-Correo: **[tucorreo@dominio.com]**
+Universidad **Nacional de Colombia sede Medellín**  
+Correo: **segomezz@unal.edu.co**
