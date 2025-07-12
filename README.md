@@ -66,18 +66,9 @@ Los modelos fueron evaluados usando **matrices de confusión normalizadas**, **a
 ## 🗂️ Estructura del Proyecto
 
 ```
-project/
-├── dataset/
-│   ├── annotations/             # Anotaciones en formato COCO JSON
-│   ├── Images_C1/…/Images_A/    # Carpetas con imágenes por clase
-├── Dataset-YOLO/                # Dataset listo para YOLOv8
-│   ├── images/train/val/
-│   ├── labels/train/val/
-│   └── data.yaml
-├── confusion_matrices/          # Imágenes de matrices por modelo
-├── notebooks/
-│   ├── Clasificacion_yolo.ipynb
-│   └── Clasificacion_modelos.ipynb
+        
+notebooks/
+│   └── Trabajo_Final.ipynb
 ├── runs/detect/train*/          # Resultados del entrenamiento YOLO
 ```
 
