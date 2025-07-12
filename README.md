@@ -2,6 +2,18 @@
 
 Este proyecto aborda el desarrollo de un sistema automático de clasificación de granos de cacao utilizando técnicas avanzadas de visión por computador. El objetivo principal es identificar correctamente cinco clases de grano según su madurez y calidad, comparando redes neuronales profundas (YOLOv8) con modelos clásicos como KNN, SVM y Random Forest.
 
+🌱 Contexto del Dataset
+
+El conjunto de datos utilizado en este proyecto fue construido a partir de imágenes reales de granos de cacao recolectadas en distintas etapas del desarrollo del fruto. El articulo con la descripción del dataset se puede encontrar https://zenodo.org/records/7968315 propuesto en colaboración por el profesor Juan Felipe Restrepo Arias docente de la universidad Eafit. Estas imágenes fueron capturadas en condiciones de laboratorio y de campo, y representan cinco categorías clave:
+	•	C1 (0–2 meses): Granos inmaduros, de color verde claro, tamaño pequeño y textura lisa.
+	•	C2 (2–4 meses): Granos en transición, más grandes, con tonalidades verde oscuro o amarillentas.
+	•	C3 (4–6 meses): Granos maduros, de mayor tamaño, con cambios visibles en textura y color.
+	•	C4 (>6 meses): Granos completamente maduros, oscuros, con signos externos de fermentación o endurecimiento.
+	•	A (Abortos): Granos defectuosos que no completaron su proceso de desarrollo, comúnmente más pequeños, secos o deformes.
+
+Las imágenes están organizadas en carpetas por clase, y las anotaciones se encuentran en formato COCO (.json). Este dataset simula un escenario real en el que es necesario automatizar la clasificación de frutos para procesos de selección, exportación o evaluación genética.
+
+El desequilibrio en el número de muestras por clase (especialmente en la clase A) refleja un escenario realista, donde los casos anómalos son menos frecuentes, y plantea un desafío adicional para los modelos de clasificación.
 ---
 
 ## 🎯 Objetivos
